@@ -34,17 +34,90 @@ It provides real-world relevance for analyzing public perception
 
 ## (3) Dataset
 - Source:
+  
+The dataset was created using manually curated tweets related to Tesla.
+Due to limitations in accessing the official Twitter API, tweets were synthetically generated to resemble real Twitter data and then manually labeled for sentiment analysis.
 - Features:
+  
+The dataset contains the following attributes:
+id → Unique identifier for each tweet
+tweet → Text content of the tweet
+label → Sentiment category:
+P (Positive)
+N (Neutral)
+NEG (Negative)
+
+After preprocessing, an additional feature is created:
+clean_tweet → Processed text (lowercase, no special characters, stopwords removed)
+
 - Size:
 
+Total Tweets: 100
+Training Set: 80 tweets (80%)
+Testing Set: 20 tweets (20%)
+Classes: 3 (Positive, Neutral, Negative)
+
+🔹 Class Distribution (approx.)
+Positive: ~40 tweets
+Neutral: ~30 tweets
+Negative: ~30 tweets
+
+🔹 Data Type
+Type: Text data (unstructured)
+Format: CSV file
+Domain: Social media sentiment analysis
+
+---
+
 ## (4) Methodology
-1. Data Preprocessing  
-2. EDA  
-3. Model Building  
-4. Evaluation  
+1. Data Preprocessing
+
+The raw dataset of tweets related to Tesla was cleaned and prepared before model training. 
+The following steps were performed:
+Lowercasing: All text was converted to lowercase to maintain uniformity
+Removal of special characters: Punctuation, numbers, and symbols were removed
+Stopword removal: Common words like “the”, “is”, “and” were removed
+Whitespace cleaning: Extra spaces were eliminated
+Text normalization: Only meaningful words were retained
+This preprocessing ensures that noise is reduced and the data is suitable for feature extraction.
+
+2. Exploratory Data Analysis (EDA)
+
+EDA was performed to understand the dataset and its characteristics:
+Class distribution: Checked the number of positive, neutral, and negative tweets
+Word frequency analysis: Identified commonly used words in tweets
+Text length analysis: Observed variation in tweet lengths
+Basic visualization: Bar graphs were used to visualize sentiment distribution
+EDA helps in identifying patterns, imbalances, and trends in the dataset.
+
+3. Model Building
+
+The processed text data was converted into numerical features using TF-IDF vectorization. Then, multiple classification models were trained:
+Naïve Bayes: Suitable for text classification with probabilistic approach
+Logistic Regression: Effective linear model for classification
+Support Vector Machine (SVM): Works well with high-dimensional text data
+
+🔹 Training Process:
+The dataset was split into 80% training and 20% testing
+Models were trained on the training data
+Predictions were generated on the test data
+
+4. Evaluation
+The performance of each model was evaluated using:
+Precision: Measures correctness of positive predictions
+Recall: Measures ability to find all relevant instances
+Accuracy: Overall correctness of the model
+
+🔹 Results Summary:
+SVM achieved the best performance
+Logistic Regression performed moderately well
+Naïve Bayes showed comparatively lower accuracy
+
+🔹 Interpretation:
+The results indicate that SVM is most effective for sentiment classification in this dataset due to its ability to handle high-dimensional feature spaces.
 
 ## (5) Results
-- Metrics and insights
+
 
 ## (6) How to Run
 ```bash
