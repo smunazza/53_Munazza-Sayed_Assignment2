@@ -1,7 +1,37 @@
 #  Assignment Title
 
 ## (1) Problem Statement
-Describe the problem.
+### 🔹 What is a “Buzzword”?
+
+A **buzzword** is a trendy or popular term that quickly gains attention, especially in media, business, or technology. These words are often widely discussed but may sometimes be overused or loosely defined.
+Examples include terms like “AI,” “blockchain,” or “sustainability.”
+
+---
+
+### 🔹 About Tesla
+
+Tesla is a leading electric vehicle (EV) and clean energy company founded by Elon Musk and others. It is known for:
+
+* Innovative electric cars (like Model S, Model 3)
+* Advanced features such as Autopilot
+* Focus on sustainable energy solutions
+
+Tesla frequently appears in news and social media discussions, making it a highly relevant topic.
+
+---
+
+### 🔹 Why this topic was selected
+
+The topic **Tesla** was chosen because:
+
+* It is a **popular buzzword** in technology and business discussions
+* There is **high public engagement** on social media platforms like Twitter
+* It generates **diverse opinions** (positive, neutral, negative), which is ideal for sentiment analysis
+* It provides **real-world relevance** for analyzing public perception
+
+---
+
+
 
 ## (2) Objective
 - Define the goal.
