@@ -18,7 +18,7 @@ Tesla is a leading electric vehicle (EV) and clean energy company founded by Elo
 
 Tesla frequently appears in news and social media discussions, making it a highly relevant topic.
 
----
+```
 
 
 
@@ -116,8 +116,42 @@ Naïve Bayes showed comparatively lower accuracy
 🔹 Interpretation:
 The results indicate that SVM is most effective for sentiment classification in this dataset due to its ability to handle high-dimensional feature spaces.
 
+```
+
 ## (5) Results
 
+Naive Bayes:
+               precision    recall  f1-score   support
+
+           N       0.60      1.00      0.75         3
+         NEG       1.00      0.33      0.50        12
+           P       0.45      1.00      0.62         5
+
+    accuracy                           0.60        20
+   macro avg       0.68      0.78      0.62        20
+weighted avg       0.80      0.60      0.57        20
+
+Logistic Regression:
+               precision    recall  f1-score   support
+
+           N       0.75      1.00      0.86         3
+         NEG       1.00      0.33      0.50        12
+           P       0.42      1.00      0.59         5
+
+    accuracy                           0.60        20
+   macro avg       0.72      0.78      0.65        20
+weighted avg       0.82      0.60      0.58        20
+
+SVM:
+               precision    recall  f1-score   support
+
+           N       0.50      0.67      0.57         3
+         NEG       1.00      0.08      0.15        12
+           P       0.33      1.00      0.50         5
+
+    accuracy                           0.40        20
+   macro avg       0.61      0.58      0.41        20
+weighted avg       0.76      0.40      0.30        20
 
 ## (6) How to Run
 ```bash
