@@ -116,9 +116,10 @@ Naïve Bayes showed comparatively lower accuracy
 🔹 Interpretation:
 The results indicate that SVM is most effective for sentiment classification in this dataset due to its ability to handle high-dimensional feature spaces.
 
-```
+
 
 ## (5) Results
+```
 
 Naive Bayes:
                precision    recall  f1-score   support
@@ -153,6 +154,7 @@ SVM:
    macro avg       0.61      0.58      0.41        20
 weighted avg       0.76      0.40      0.30        20
 
+```
 ## (6) How to Run
 ```bash
 pip install -r requirements.txt
