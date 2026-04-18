@@ -20,21 +20,17 @@ Tesla frequently appears in news and social media discussions, making it a highl
 
 ---
 
-### 🔹 Why this topic was selected
-
-The topic **Tesla** was chosen because:
-
-* It is a **popular buzzword** in technology and business discussions
-* There is **high public engagement** on social media platforms like Twitter
-* It generates **diverse opinions** (positive, neutral, negative), which is ideal for sentiment analysis
-* It provides **real-world relevance** for analyzing public perception
-
----
-
 
 
 ## (2) Objective
-- Define the goal.
+🔹 Why this topic was selected
+
+The topic Tesla was chosen because:
+
+It is a popular buzzword in technology and business discussions
+There is high public engagement on social media platforms like Twitter
+It generates diverse opinions (positive, neutral, negative), which is ideal for sentiment analysis
+It provides real-world relevance for analyzing public perception
 
 ## (3) Dataset
 - Source:
