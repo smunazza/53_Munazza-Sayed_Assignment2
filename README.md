@@ -18,7 +18,7 @@ Tesla is a leading electric vehicle (EV) and clean energy company founded by Elo
 
 Tesla frequently appears in news and social media discussions, making it a highly relevant topic.
 
-```
+
 
 
 
@@ -160,10 +160,17 @@ python main.py
 ```
 
 ## (7) Conclusion
-Summarize findings.
+
+### **Summary of Findings**
+
+The sentiment analysis of tweets related to Tesla showed that machine learning models can effectively classify public opinions into positive, neutral, and negative categories.
+Among the models tested, **Support Vector Machine (SVM)** achieved the best performance, with the highest accuracy, precision, and recall. **Logistic Regression** also performed well, while **Naïve Bayes** gave slightly lower results but remained efficient and simple.
+The results indicate that **clean preprocessing and balanced data significantly improve model performance**. However, the relatively small dataset limits the model’s ability to generalize to real-world data.
+Overall, the project demonstrates that sentiment analysis is a practical approach for understanding public perception, and performance can be further improved using larger datasets and more advanced models.
+
 
 ## (8) Student's details
-- Name:
-- Roll No:
-- UIN:
+- Name: Munazza Sayed
+- Roll No: 53
+- UIN: 231A046
 - YEAR: TE-AIDS
