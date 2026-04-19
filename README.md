@@ -1,4 +1,4 @@
-#  Assignment Title
+#  Assignment 2 (Text Analytics – Sentiment Analysis)
 
 ## (1) Problem Statement
 ### 🔹 What is a “Buzzword”?
